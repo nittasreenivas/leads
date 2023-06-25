@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Leads": [
+    {
+      "fullname": "sreenivas",
+      "phoneNumber": "12345",
+      "email": "nitta.sreenivas@gmail.com",
+      "course": "react js",
+      "id": 1
+    },
+    {
+      "fullname": "rishi kumar",
+      "phoneNumber": "9014",
+      "email": "rishi@mailnator.com",
+      "course": "express",
+      "id": 3
+    },
+    {
+      "fullname": "vasu",
+      "phoneNumber": "7032",
+      "email": "vasu@gmail.com",
+      "course": "node",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "firstname": "nitta",
+      "lastname": "sreenivas",
+      "username": "Nitta Sreenivas",
+      "password": "1234",
+      "id": 1
+    }
+  ]
+}
