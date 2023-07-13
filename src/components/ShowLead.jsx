@@ -23,18 +23,18 @@ function ShowLead() {
         })
     }
   return (
-    <div  className='border border-2 border-success m-2 p-2'>
+    <div  className='m-4 text-center'>
         <h3>ShowLead</h3>
         <div>
-            <table className="table table-bordered border-danger">
+            <table className="table table-bordered border-danger mt-4">
                 <thead>
                     <tr>
-                        <th>fullname</th>
-                        <th>phoneNumber</th>
-                        <th>Email</th>
-                        <th>Course</th>
-                        <th>Delete</th>
-                        <th>Edit</th>
+                        <th className='text-center'>fullname</th>
+                        <th className='text-center'>phoneNumber</th>
+                        <th className='text-center'>Email</th>
+                        <th className='text-center'>Course</th>
+                        <th className='text-center'>Delete</th>
+                        <th className='text-center'>Edit</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,14 +42,14 @@ function ShowLead() {
                         leads.map((l,i) => {
                             return(
                                 <tr key={i}>
-                        <td>{l.fullname}</td>
-                        <td>{l.phoneNumber}</td>
-                        <td>{l.email}</td>
-                        <td>{l.course}</td>
-                        <td>
+                        <td className='text-center'>{l.fullname}</td>
+                        <td className='text-center'>{l.phoneNumber}</td>
+                        <td className='text-center'>{l.email}</td>
+                        <td className='text-center'>{l.course}</td>
+                        <td className='text-center'>
                             <button className='btn btn-danger btn-sm' onClick={() => handleDelete(l.id)}>Del</button>
                         </td>
-                        <td>
+                        <td className='text-center'>
                             <button className='btn btn-info btn-sm' onClick={() => handleEdit(l)}>EDIT</button>
                         </td>
                                 </tr>
